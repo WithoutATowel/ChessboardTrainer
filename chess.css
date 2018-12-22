@@ -1,0 +1,59 @@
+html {
+	font-family: 'trebuchet ms', arial, sans-serif;
+}
+div {
+	float:left;
+}
+p {
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+td {
+	height: 75px;
+	width: 75px;
+	text-align: center;
+	font-size: 30px;
+}
+button {
+	display:block;
+	width:102px;
+	clear:both;
+	margin-left: 60px;
+	margin-top: 5px;
+}
+.black {
+	background-color: black;
+	color: white;
+}
+#chessBoard {
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+#promptDiv {
+	border: 1px solid black;
+	height: 70px;
+	width: 100px;
+	margin-left: 60px;
+	font-size: 40px;
+}
+#scoreDiv {
+	border: 1px solid black;
+	height: 70px;
+	width: 100px;
+	margin-left: 60px;
+	margin-top:30px;
+	margin-bottom: 45px;
+	font-size: 40px;
+}
+#scoreLabel {
+	font-size: 25px;
+}
+#viewLabel {
+	margin-top:20px;
+	margin-left: 65px;
+}
